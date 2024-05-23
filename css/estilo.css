@@ -30,7 +30,8 @@ header nav ul li a {
         margin-left: 20px;
         align-items: left;
     }
-    .top-list{
+
+    .top-list {
         margin-top: 10px;
 
     }
@@ -42,7 +43,7 @@ header nav ul li a {
 
 /* Estilo para o menu de navegação */
 
-.nav_bar{
+.nav_bar {
     li {
         margin-left: 50px;
         margin-right: -40px;
@@ -52,7 +53,7 @@ header nav ul li a {
     }
 }
 
-.btn_login{
+.btn_login {
     display: flex;
     margin-left: 950px;
     justify-content: right;
@@ -60,40 +61,42 @@ header nav ul li a {
 }
 
 .btn_bar {
-        letter-spacing: 0.6px;
-        border-radius: 4px;
-        width: 150px;
-        height: 32px;
-        border: 1px solid #0046c0;
-        cursor: pointer;
-    
-        a {
-            font-weight: bold;
-            font-size: 16px;
-            text-decoration: none;
-            color: #0046c0;
-        }
+    letter-spacing: 0.6px;
+    border-radius: 4px;
+    width: 150px;
+    height: 32px;
+    border: 1px solid #0046c0;
+    cursor: pointer;
 
-        li {
-            padding: 5px;
-        }
-
+    a {
+        font-weight: bold;
+        font-size: 16px;
+        text-decoration: none;
+        color: #0046c0;
     }
+
+    li {
+        padding: 5px;
+    }
+
+}
 
 .fotos {
     display: flex;
     justify-content: space-between;
-    img { 
+
+    img {
         width: 200px;
         margin-left: 25px;
         border: 3px solid #000000;
         border-radius: 50%;
     }
-    .integrante_content{
+
+    .integrante_content {
         padding: 20px;
 
     }
-    
+
     h3 {
         display: flex;
         justify-content: center;
@@ -155,7 +158,8 @@ header nav ul li a {
 .nav-list {
     margin-bottom: 10px;
 }
-    ul {
+
+ul {
     display: flex;
     justify-content: center;
     list-style: none;
@@ -189,7 +193,7 @@ hr {
         margin-top: 15px;
         margin-left: 30px;
         margin-bottom: 5px;
-    
+
     }
 
     p {
@@ -205,11 +209,13 @@ hr {
 .conteudo2 {
     height: 250px;
     background-color: #ffffff;
-    h1 { 
+
+    h1 {
         display: absolute;
         margin-top: 15px;
         margin-left: 35px;
     }
+
     .seguro {
         display: inline-flex;
         justify-content: center;
@@ -219,6 +225,7 @@ hr {
         gap: 5px;
         margin-left: 60px;
     }
+
     .seguro2 {
         display: inline-flex;
         justify-content: left;
@@ -228,12 +235,13 @@ hr {
         gap: 5px;
         margin-left: 60px;
     }
+
     .banner {
         font-weight: 300;
         font-size: 19px;
         margin-left: 135px;
         margin-top: 35px;
-        }
+    }
 }
 
 /* Estilo para o footer */
@@ -355,6 +363,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+
     /* Estilo para o header */
     #top {
         flex-direction: column;
@@ -362,37 +371,37 @@ footer {
     }
 
     /* Estilo para o menu de navegação */
-   .nav_bar {
+    .nav_bar {
         flex-direction: column;
         align-items: center;
     }
 
-   .nav_bar li {
+    .nav_bar li {
         margin: 10px 0;
     }
 
-   .btn_login {
+    .btn_login {
         margin-left: 0;
         justify-content: center;
     }
 
     /* Estilo para o main */
-   .conteudo {
+    .conteudo {
         height: auto;
     }
 
-   .conteudo h1,
-   .conteudo p {
+    .conteudo h1,
+    .conteudo p {
         margin-left: 20px;
     }
 
     /* Estilo para o footer */
-   .footer_content {
+    .footer_content {
         grid-template-columns: repeat(2, 1fr);
     }
 
-   .footer-list,
-   .footer-list2 {
+    .footer-list,
+    .footer-list2 {
         margin-left: 0;
     }
 
