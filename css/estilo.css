@@ -298,8 +298,8 @@ footer {
 
 #footer_social_media {
     display: flex;
-    justify-content: center;
-    gap: 1rem;
+    justify-content: left;
+    gap: 2rem;
     font-size: 30px;
     margin-top: 20px;
 }
